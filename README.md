@@ -7,7 +7,7 @@ volumes to Amazon S3 buckets based on duplicity.
 Additionally, the container will automatically recover the latest backup
 if the data directory is empty when the container starts.
 
-This implementation is based on the [backup-volume-container](https://github.com/yaronr/dockerfile/tree/master/backup-volume-container).
+This implementation was inspired by the [backup-volume-container](https://github.com/yaronr/dockerfile/tree/master/backup-volume-container) from @yaronr.
 
 The following Docker Stack file shows how it can be used together with other
 containers to enable S3 persistence.
